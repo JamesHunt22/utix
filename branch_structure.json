@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "ci/coverage-summary",
+    "fix/issue-12-verify-features-runtime-contract",
+    "grantfox-account-data-entries",
+    "main",
+    "origin",
+    "test/network-provider-coverage"
+  ],
+  "parent": {
+    "ci/coverage-summary": "main",
+    "fix/issue-12-verify-features-runtime-contract": "main",
+    "grantfox-account-data-entries": "main",
+    "main": null,
+    "origin": "main",
+    "test/network-provider-coverage": "main"
+  },
+  "order": [
+    "main",
+    "ci/coverage-summary",
+    "fix/issue-12-verify-features-runtime-contract",
+    "grantfox-account-data-entries",
+    "origin",
+    "test/network-provider-coverage"
+  ]
+}
